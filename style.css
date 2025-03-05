@@ -1,0 +1,86 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #333333;
+    color: white;
+    padding: 15px;
+}
+
+.fake-logo {
+    height: 50px; /* Adjust size as needed */
+    vertical-align: middle;
+}
+
+.onlyfans-logo {
+    height: 70px; /* Increase size */
+    vertical-align: middle;
+}
+
+
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    margin: 40px auto;
+    max-width: 800px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    transition: transform 0.3s ease-in-out;
+
+    
+}
+
+
+.products img {
+    width: 100%; /* Makes sure all images fill the container */
+    height: 200px; /* Set a fixed height for uniformity */
+    object-fit: cover; /* Ensures images are cropped properly to fit */
+    border-radius: 5px; /* Adds slight rounding to look clean */
+}
+
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
